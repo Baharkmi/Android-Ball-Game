@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_exit" android:title="@string/action_exit"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/copy" android:title="Copy"
+        android:orderInCategory="10" app:showAsAction="never"/>
+
+    <item android:id="@+id/paste" android:title="Paste"
+        android:orderInCategory="20" app:showAsAction="never"/>
+
+    <item android:id="@+id/view_log" android:title="ViewLog"
+        android:orderInCategory="30" app:showAsAction="never"/>
+
+    <item android:id="@+id/view_log_all" android:title="ViewLogAll"
+        android:orderInCategory="40" app:showAsAction="never"/>
+
+    <item android:id="@+id/clear_log" android:title="ClearLog"
+        android:orderInCategory="50" app:showAsAction="never"/>
+</menu>
